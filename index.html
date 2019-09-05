@@ -1,66 +1,188 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <script src="https://kit.fontawesome.com/752b22c16a.js"></script>
+    <title>Home</title>
 
-    <script>$(document).ready(function(){
-        $("#menu-toggle").click(function(e){
-          e.preventDefault();
-          $("#wrapper").toggleClass("menuDisplayed");
-        });
-      });
-      </script>
+    <!-- Bootstrap CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+      integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+      crossorigin="anonymous"
+    />
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="HTML2/style.css" />
 
-    <title>Tapas Ceviche Bar</title>
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css"
+    />
 
-<body>
-    <div id="wrapper">
-        <!-- Sidebar -->
-        <div id="sidebar-wrapper">
-          <ul class="sidebar-nav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Menu</a></li>
-            <li><a href="#">Pictures</a></li>
-            <li><a href="#">Restaurant</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
+    <!-- Font Awesome JS -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+      integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+      integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body class="bg-dark">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4 mt-2">
+        <a class="navbar-brand" href="#"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html"
+                    >Home <span class="sr-only">(current)</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index1.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index2.html">Pictures</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="index3.html">Restaurant</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="index4.html">Contact</a>
+                </li>
+              </ul>
         </div>
-        
-        <!-- Page Content -->
-        <div id="page-content-wrapper">
-          <div class="container-fluid">
-            <div class="row mb-3 jumbo">
-              <div class="col-12">
-                  <section class="jumbotron">
-                      <h1 class="display-4">Welcome</h1>
-                      <p class="lead">There is a Spanish restaurant enjoy our home made cooking!</p>
-
-                      <p>We've got a lot of choice also check our menu !</p>
-                    </section>
-              </div>
+      </nav>
+      <section class="jumbotron">
+          <h1 class="display-4 text-center">Welcome</h1>
+          <p class="lead mt-4">Home made cooking</p>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Consequatur perspiciatis esse quas ullam architecto quasi quo
+            ab quia, earum quis cupiditate cum, alias incidunt dicta
+            molestias enim temporibus, officiis nisi. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur deleniti officiis rerum explicabo est cumque, quam repellat amet facere suscipit. Aut ea deleniti impedit suscipit vel dignissimos atque natus asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum adipisci, eum autem iure cumque velit, quaerat nostrum quod veniam labore dolores deleniti cupiditate maiores minus quasi esse enim ex saepe! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non in nam aliquam modi ullam blanditiis adipisci hic quod repudiandae optio, dolorem pariatur veritatis tempora a, officia omnis ipsam explicabo eos.
+          </p>
+        </section>
+      </div>
+    </div>
+    <section class="row">
+      <div class="col-12">
+        <div class="card-deck p-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-center">Promos</h5>
+              <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequatur perspiciatis esse quas ullam architecto quasi quo
+                  ab quia, earum quis cupiditate cum, alias incidunt dicta
+                  molestias enim temporibus, officiis nisi. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur deleniti officiis rerum explicabo est cumque, quam repellat amet facere suscipit. Aut ea deleniti impedit suscipit vel dignissimos atque natus asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum adipisci, eum autem iure cumque velit, quaerat nostrum quod veniam labore dolores deleniti cupiditate maiores minus quasi esse enim ex saepe! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non in nam aliquam modi ullam blanditiis adipisci hic quod repudiandae optio, dolorem pariatur veritatis tempora a, officia omnis ipsam explicabo eos.
+              </p>
             </div>
-            <section class="bg-dark">
-              <nav class="row ">
-                <div class="col-12">
-                    <a href="#" class="btn" id="menu-toggle"><i class="fas fa-bars"></i></a>
-                </div>
-              </nav>
-            </section>
+            <div class="card-footer">
+              <small class="text-muted">-25%</small>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-center">Promos</h5>
+              <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequatur perspiciatis esse quas ullam architecto quasi quo
+                  ab quia, earum quis cupiditate cum, alias incidunt dicta
+                  molestias enim temporibus, officiis nisi. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur deleniti officiis rerum explicabo est cumque, quam repellat amet facere suscipit. Aut ea deleniti impedit suscipit vel dignissimos atque natus asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum adipisci, eum autem iure cumque velit, quaerat nostrum quod veniam labore dolores deleniti cupiditate maiores minus quasi esse enim ex saepe! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non in nam aliquam modi ullam blanditiis adipisci hic quod repudiandae optio, dolorem pariatur veritatis tempora a, officia omnis ipsam explicabo eos.
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-center">Promos</h5>
+              <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequatur perspiciatis esse quas ullam architecto quasi quo
+                  ab quia, earum quis cupiditate cum, alias incidunt dicta
+                  molestias enim temporibus, officiis nisi. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur deleniti officiis rerum explicabo est cumque, quam repellat amet facere suscipit. Aut ea deleniti impedit suscipit vel dignissimos atque natus asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum adipisci, eum autem iure cumque velit, quaerat nostrum quod veniam labore dolores deleniti cupiditate maiores minus quasi esse enim ex saepe! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non in nam aliquam modi ullam blanditiis adipisci hic quod repudiandae optio, dolorem pariatur veritatis tempora a, officia omnis ipsam explicabo eos.
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
           </div>
         </div>
       </div>
-</body>
+    </section>
+    <section class="row mt-3 p-3">
+      <div class="col-12">
+        <div class="card text-center">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="News-tab" data-toggle="tab" href="#News" role="tab" aria-controls="News" aria-selected="true">News</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="Events-tab" data-toggle="tab" href="#Events" role="tab" aria-controls="Events" aria-selected="false">Events</a>
+                </li>
+              </ul>
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="News" role="tabpanel" aria-labelledby="News-tab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa numquam architecto doloremque vel consectetur, minus earum in commodi aliquam, adipisci facere? Harum sequi doloribus odit vitae in, reiciendis iusto veniam.            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Consequatur perspiciatis esse quas ullam architecto quasi quo
+                    ab quia, earum quis cupiditate cum, alias incidunt dicta
+                    molestias enim temporibus, officiis nisi. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur deleniti officiis rerum explicabo est cumque, quam repellat amet facere suscipit. Aut ea deleniti impedit suscipit vel dignissimos atque natus asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum adipisci, eum autem iure cumque velit, quaerat nostrum quod veniam labore dolores deleniti cupiditate maiores minus quasi esse enim ex saepe! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non in nam aliquam modi ullam blanditiis adipisci hic quod repudiandae optio, dolorem pariatur veritatis tempora a, officia omnis ipsam explicabo eos.</div>
 
+                <div class="tab-pane fade" id="Events" role="tabpanel" aria-labelledby="Events-tab">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et recusandae nihil quisquam ut quasi! Ipsam quo sit, mollitia quia hic ratione unde non velit placeat? Illo, distinctio. Perspiciatis, nisi voluptatum.            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Consequatur perspiciatis esse quas ullam architecto quasi quo
+                    ab quia, earum quis cupiditate cum, alias incidunt dicta
+                    molestias enim temporibus, officiis nisi. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur deleniti officiis rerum explicabo est cumque, quam repellat amet facere suscipit. Aut ea deleniti impedit suscipit vel dignissimos atque natus asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum adipisci, eum autem iure cumque velit, quaerat nostrum quod veniam labore dolores deleniti cupiditate maiores minus quasi esse enim ex saepe! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non in nam aliquam modi ullam blanditiis adipisci hic quod repudiandae optio, dolorem pariatur veritatis tempora a, officia omnis ipsam explicabo eos.</div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+    </div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Popper.JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+      integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap JS -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+      integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+      crossorigin="anonymous"
+    ></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+  </body>
 </html>
