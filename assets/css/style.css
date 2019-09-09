@@ -1,0 +1,63 @@
+body {
+  background-color: #df9f87 !important;
+  color: #333131;
+}
+
+.container {
+  background-color: #df9f87;
+}
+
+.navbar {
+  background-color: #df9f87;
+}
+
+.jumbotron {
+  background-color: #f0f0f0 !important;
+  color: #333131;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #333131;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #333131;
+}
+
+a {
+  color: #333131;
+}
+
+a:hover {
+  color: #333131;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show > .nav-link {
+  color: #333131;
+}
+
+.nav-bar {
+  background-color: #333131;
+}
+
+.card-header {
+  background-color: #f0f0f0;
+}
+
+.card-body {
+  background-color: #f0f0f0;
+}
+
+.card {
+  background-color: #f0f0f0;
+}
+
+.list-group-item {
+  background-color: #f0f0f0;
+}
+/*# sourceMappingURL=style.css.map */

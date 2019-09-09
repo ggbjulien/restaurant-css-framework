@@ -1,0 +1,62 @@
+$bodyColor: #df9f87;
+$cardColor: #f0f0f0;
+$cardColor2: #f8eddf;
+$textColor: #333131;
+
+body {
+  background-color: $bodyColor !important;
+  color: $textColor;
+}
+
+.container {
+  background-color: $bodyColor;
+}
+
+.navbar {
+  background-color: $bodyColor;
+}
+
+.jumbotron {
+  background-color: $cardColor !important;
+  color: $textColor;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  background-color: $cardColor;
+  border-bottom: 1px solid $textColor;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: $textColor;
+}
+
+a {
+  color: $textColor;
+}
+a:hover {
+  color: $textColor;
+}
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show > .nav-link {
+  color: $textColor;
+}
+.nav-bar {
+  background-color: $textColor;
+}
+.card-header {
+  background-color: $cardColor;
+}
+
+.card-body {
+  background-color: $cardColor;
+}
+
+.card {
+  background-color: $cardColor;
+}
+
+.list-group-item {
+  background-color: $cardColor;
+}

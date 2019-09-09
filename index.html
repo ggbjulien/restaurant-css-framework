@@ -15,7 +15,7 @@
       crossorigin="anonymous"
     />
     <!-- Our Custom CSS -->
-    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 
     <link
       rel="stylesheet"
@@ -37,23 +37,25 @@
     ></script>
   </head>
 
-  <body class="bg-dark">
-    <div class="container bg-white p-0">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark mt-2">
-        <a class="navbar-brand" href="#"></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-10 offset-1">
+          <nav class="navbar navbar-expand-lg navbar-dark mt-2">
+            <a class="navbar-brand" href="#"></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
                 <li class="nav-item active">
                   <a class="nav-link" href="index.html"
                     >Home <span class="sr-only">(current)</span></a
@@ -66,105 +68,140 @@
                   <a class="nav-link" href="index2.html">Pictures</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link disabled" href="index3.html">Restaurant</a>
+                  <a class="nav-link" href="index3.html">Restaurant</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link disabled" href="index4.html">Contact</a>
+                  <a class="nav-link" href="index4.html">Contact</a>
                 </li>
               </ul>
+            </div>
+          </nav>
         </div>
-      </nav>
-      <section class="jumbotron">
-          <h1 class="display-4 text-center">Welcome</h1>
-          <p class="lead mt-4">Home made cooking</p>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Consequatur perspiciatis esse quas ullam architecto quasi quo
-            ab quia, earum quis cupiditate cum, alias incidunt dicta
-            molestias enim temporibus, officiis nisi. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur deleniti officiis rerum explicabo est cumque, quam repellat amet facere suscipit. Aut ea deleniti impedit suscipit vel dignissimos atque natus asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum adipisci, eum autem iure cumque velit, quaerat nostrum quod veniam labore dolores deleniti cupiditate maiores minus quasi esse enim ex saepe! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non in nam aliquam modi ullam blanditiis adipisci hic quod repudiandae optio, dolorem pariatur veritatis tempora a, officia omnis ipsam explicabo eos.
-          </p>
-        </section>
+      </div>
+      <div class="row mt-3">
+        <div class="col-10 offset-1">
+          <section class="jumbotron shadow">
+            <h1 class="display-4 text-center">Welcome</h1>
+            <img src="#" alt="TAPAS" />
+            <p class="lead mt-4">Home made cooking</p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Consequatur perspiciatis esse quas ullam architecto quasi quo ab
+              quia, earum quis cupiditate cum, alias incidunt dicta molestias
+              enim temporibus, officiis nisi.
+            </p>
+          </section>
+        </div>
+      </div>
 
-    <section class="row">
-      <div class="col-12">
-        <div class="card m-5">
-          <div class="card-body">
-            <h1 class="display-5 text-center">Promo</h1>
-            <div class="card-deck p-3">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title text-center">Promos</h5>
-                  <p class="card-text text-justify">
+      <section class="row">
+        <div class="col-10 offset-1 mt-4">
+          <div class="card m-0 shadow">
+            <div class="card-body">
+              <h1 class=" card-header display-5 text-center ">Best deals</h1>
+              <div class="card-deck p-3">
+                <div class="card shadow">
+                  <div class="card-body">
+                    <p class="card-text text-justify">
                       Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Consequatur perspiciatis esse quas ullam architecto quasi quo
-                      ab quia, earum quis cupiditate cum, alias incidunt dicta
-                      molestias enim temporibus, officiis nisi. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur deleniti officiis rerum explicabo est cumque, quam repellat amet facere suscipit. Aut ea deleniti impedit suscipit vel dignissimos atque natus asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum adipisci, eum autem iure cumque velit, quaerat nostrum quod veniam labore dolores deleniti cupiditate maiores minus quasi esse enim ex saepe! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non in nam aliquam modi ullam blanditiis adipisci hic quod repudiandae optio, dolorem pariatur veritatis tempora a, officia omnis ipsam explicabo eos.
-                  </p>
+                      Consequatur perspiciatis esse quas ullam architecto quasi
+                      quo ab quia, earum quis cupiditate cum, alias incidunt
+                      dicta molestias enim temporibus, officiis nisi.
+                    </p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">-25%</small>
+                  </div>
                 </div>
-                <div class="card-footer">
-                  <small class="text-muted">-25%</small>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title text-center">Promos</h5>
-                  <p class="card-text text-justify">
+                <div class="card shadow">
+                  <div class="card-body">
+                    <p class="card-text text-justify">
                       Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Consequatur perspiciatis esse quas ullam architecto quasi quo
-                      ab quia, earum quis cupiditate cum, alias incidunt dicta
-                      molestias enim temporibus, officiis nisi. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur deleniti officiis rerum explicabo est cumque, quam repellat amet facere suscipit. Aut ea deleniti impedit suscipit vel dignissimos atque natus asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum adipisci, eum autem iure cumque velit, quaerat nostrum quod veniam labore dolores deleniti cupiditate maiores minus quasi esse enim ex saepe! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non in nam aliquam modi ullam blanditiis adipisci hic quod repudiandae optio, dolorem pariatur veritatis tempora a, officia omnis ipsam explicabo eos.
-                  </p>
+                      Consequatur perspiciatis esse quas ullam architecto quasi
+                      quo ab quia, earum quis cupiditate cum, alias incidunt
+                      dicta molestias enim temporibus, officiis nisi.
+                    </p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                  </div>
                 </div>
-                <div class="card-footer">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title text-center">Promos</h5>
-                  <p class="card-text text-justify">
+                <div class="card shadow">
+                  <div class="card-body">
+                    <p class="card-text text-justify">
                       Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Consequatur perspiciatis esse quas ullam architecto quasi quo
-                      ab quia, earum quis cupiditate cum, alias incidunt dicta
-                      molestias enim temporibus, officiis nisi. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur deleniti officiis rerum explicabo est cumque, quam repellat amet facere suscipit. Aut ea deleniti impedit suscipit vel dignissimos atque natus asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum adipisci, eum autem iure cumque velit, quaerat nostrum quod veniam labore dolores deleniti cupiditate maiores minus quasi esse enim ex saepe! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non in nam aliquam modi ullam blanditiis adipisci hic quod repudiandae optio, dolorem pariatur veritatis tempora a, officia omnis ipsam explicabo eos.
-                  </p>
-                </div>
-                <div class="card-footer">
-                  <small class="text-muted">Last updated 3 mins ago</small>
+                      Consequatur perspiciatis esse quas ullam architecto quasi
+                      quo ab quia, earum quis cupiditate cum, alias incidunt
+                      dicta molestias enim temporibus, officiis nisi.
+                    </p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="row mt-3 p-3">
-      <div class="col-12">
-        <div class="card text-center">
+      </section>
+      <section class="row">
+        <div class="col-10 offset-1 mt-4">
+          <div class="card text-justify mt-4 mb-4 shadow">
             <ul class="nav nav-tabs" id="myTab" role="tablist">
-                <li class="nav-item">
-                  <a class="nav-link active" id="News-tab" data-toggle="tab" href="#News" role="tab" aria-controls="News" aria-selected="true">News</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" id="Events-tab" data-toggle="tab" href="#Events" role="tab" aria-controls="Events" aria-selected="false">Events</a>
-                </li>
-              </ul>
-              <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="News" role="tabpanel" aria-labelledby="News-tab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa numquam architecto doloremque vel consectetur, minus earum in commodi aliquam, adipisci facere? Harum sequi doloribus odit vitae in, reiciendis iusto veniam.            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Consequatur perspiciatis esse quas ullam architecto quasi quo
-                    ab quia, earum quis cupiditate cum, alias incidunt dicta
-                    molestias enim temporibus, officiis nisi. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur deleniti officiis rerum explicabo est cumque, quam repellat amet facere suscipit. Aut ea deleniti impedit suscipit vel dignissimos atque natus asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum adipisci, eum autem iure cumque velit, quaerat nostrum quod veniam labore dolores deleniti cupiditate maiores minus quasi esse enim ex saepe! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non in nam aliquam modi ullam blanditiis adipisci hic quod repudiandae optio, dolorem pariatur veritatis tempora a, officia omnis ipsam explicabo eos.</div>
-
-                <div class="tab-pane fade" id="Events" role="tabpanel" aria-labelledby="Events-tab">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et recusandae nihil quisquam ut quasi! Ipsam quo sit, mollitia quia hic ratione unde non velit placeat? Illo, distinctio. Perspiciatis, nisi voluptatum.            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Consequatur perspiciatis esse quas ullam architecto quasi quo
-                    ab quia, earum quis cupiditate cum, alias incidunt dicta
-                    molestias enim temporibus, officiis nisi. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur deleniti officiis rerum explicabo est cumque, quam repellat amet facere suscipit. Aut ea deleniti impedit suscipit vel dignissimos atque natus asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum adipisci, eum autem iure cumque velit, quaerat nostrum quod veniam labore dolores deleniti cupiditate maiores minus quasi esse enim ex saepe! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non in nam aliquam modi ullam blanditiis adipisci hic quod repudiandae optio, dolorem pariatur veritatis tempora a, officia omnis ipsam explicabo eos.</div>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  id="News-tab"
+                  data-toggle="tab"
+                  href="#News"
+                  role="tab"
+                  aria-controls="News"
+                  aria-selected="true"
+                  >News</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="Events-tab"
+                  data-toggle="tab"
+                  href="#Events"
+                  role="tab"
+                  aria-controls="Events"
+                  aria-selected="false"
+                  >Events</a
+                >
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div
+                class="tab-pane fade show active p-3"
+                id="News"
+                role="tabpanel"
+                aria-labelledby="News-tab"
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+                numquam architecto doloremque vel consectetur, minus earum in
+                commodi aliquam, adipisci facere? Harum sequi doloribus odit
+                vitae in, reiciendis iusto veniam.
               </div>
+
+              <div
+                class="tab-pane fade p-3"
+                id="Events"
+                role="tabpanel"
+                aria-labelledby="Events-tab"
+              >
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et
+                recusandae nihil quisquam ut quasi! Ipsam quo sit, mollitia quia
+                hic ratione unde non velit placeat? Illo, distinctio.
+                Perspiciatis, nisi voluptatum.
+              </div>
+            </div>
           </div>
         </div>
-    </section>
-  </div>
-
+      </section>
+    </div>
 
     <!-- jQuery CDN - Slim version (=without AJAX) -->
     <script
