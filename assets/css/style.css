@@ -29,15 +29,26 @@ body {
   height: 100%;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
+  overflow: hidden;
+  position: relative;
+}
+.jumbotron * {
+  z-index: 1;
+  position: relative;
+}
+
+.jumbotron::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .jumbotron p {
   color: #f8eddf;
-}
-
-.jumbotron:hover {
-  -webkit-filter: sepia(0);
-  filter: sepia(0);
 }
 
 .nav-tabs .nav-item.show .nav-link,
