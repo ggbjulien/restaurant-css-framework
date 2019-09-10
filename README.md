@@ -16,4 +16,10 @@
 
 - **Julien Goetghebuer** - _Initial work_ - [Ggbjulien](https://github.com/ggbjulien)
 
-##
+## Date
+
+- 4th week at BeCode o/
+
+## Change Logs
+
+- Last Update : 10 september 2019
