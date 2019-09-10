@@ -2,7 +2,7 @@
 
 - Bootstrap exercice when i study at Becode
 
-- [WebPage]()
+- [WebPage](https://ggbjulien.github.io/restaurant-css-framework/)
 
 - Exercice rules [Restaurant-css-framework](https://github.com/becodeorg/BXL-Johnson-4.14/blob/master/03-HTML-CSS/bootstrap/restaurant.adoc)
 
