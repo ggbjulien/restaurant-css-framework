@@ -1,24 +1,41 @@
-$bodyColor: #df9f87;
-$cardColor: #f0f0f0;
-$cardColor2: #f8eddf;
-$textColor: #333131;
-
 body {
   background-color: $bodyColor !important;
   color: $textColor;
+  font-family: "Lato", sans-serif;
 }
 
 .container {
   background-color: $bodyColor;
 }
 
-.navbar {
-  background-color: $bodyColor;
+.navbarWs {
+  background-color: $navColor;
+  border-radius: 3px;
+}
+
+.navHome {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background-color: $navColor;
 }
 
 .jumbotron {
   background-color: $cardColor !important;
   color: $textColor;
+  background-image: url(../img/welcome1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  & p {
+    color: $cardColor;
+  }
+}
+.jumbotron:hover {
+  -webkit-filter: sepia(0);
+  filter: sepia(0);
 }
 
 .nav-tabs .nav-item.show .nav-link,
@@ -27,7 +44,7 @@ body {
   border-bottom: 1px solid $textColor;
 }
 .navbar-dark .navbar-nav .nav-link {
-  color: $textColor;
+  color: $cardColor;
 }
 
 a {
@@ -40,7 +57,7 @@ a:hover {
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .show > .nav-link {
-  color: $textColor;
+  color: $cardColor;
 }
 .nav-bar {
   background-color: $textColor;
@@ -60,3 +77,27 @@ a:hover {
 .list-group-item {
   background-color: $cardColor;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $navColor;
+  font-family: "Livvic", sans-serif;
+}
+
+.menuH {
+  color: $bodyColor;
+}
+
+.hoursOpening {
+  color: $bodyColor;
+}
+
+.badge {
+  background-color: $navColor;
+}
+
+@import "color.scss";

@@ -41,7 +41,7 @@
     <div class="container">
       <div class="row">
         <div class="col-10 offset-1">
-          <nav class="navbar navbar-expand-lg navbar-dark mt-2">
+          <nav class="navbar navbar-expand-lg navbar-dark mt-2 navbarWs">
             <a class="navbar-brand" href="#"></a>
             <button
               class="navbar-toggler"
@@ -78,93 +78,217 @@
           </nav>
         </div>
       </div>
-
-      <div class="row mt-3">
-        <div class="col-10 offset-1 col-md-6 offset-md-0">
-          <div class="row">
-            <div class="col-10">
+      <div class="row">
+        <div class="col-10 offset-1 mt-3">
+          <div class="card">
+            <div class="card-header">
+              <h4 class="display-5 text-center">Localisation</h4>
+            </div>
+            <div class="card-body">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.86997082001!2d4.386127015745302!3d50.83357237952993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c4bb7874bf7d%3A0x43b56a3ddcf4a522!2sAvenue%20d&#39;Auderghem%20225%2C%201040%20Etterbeek!5e0!3m2!1sfr!2sbe!4v1568040466604!5m2!1sfr!2sbe"
-                width="600"
-                height="450"
-                frameborder="0"
-                style="border:0;"
-                allowfullscreen=""
-              ></iframe>
-            </div>
-            <div class="row">
-              <div class="col-12">
-                <div class="card shadow">
-                  <div class="card-header text-center">
-                    Hours of operation
-                  </div>
-                  <div class="card-body">
-                    <h5 class="card-title">For Lunch</h5>
-                    <p class="card-text">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Rerum explicabo eligendi earum dolores reprehenderit, ea
-                      eos adipisci architecto dolorem porro perferendis iure
-                      facere? Quidem aliquam vel ad quasi, reiciendis cumque!
-                    </p>
-                  </div>
-                  <div class="card-body">
-                    <h5 class="card-title">For Diner</h5>
-                    <p class="card-text">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Ratione, quasi. Pariatur, autem. Impedit id optio corrupti
-                      unde laudantium aperiam fugiat aut molestias placeat
-                      maxime ipsam perferendis iusto, repudiandae, assumenda
-                      quisquam.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-10 offset-1 col-md-6 offset-md-0 mt-4 mb-4 p-0 ">
-          <div class="row">
-            <div class="col-12">
-              <div class="card shadow">
-                <div class="card-header text-center">
-                  Informations
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">About us</h5>
-                  <div class="row">
-                    <div class="col-6">
-                      <img src="#" alt="img1" />
-                    </div>
-                    <div class="col-6">
-                      <p class="card-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Fugiat at deleniti maiores itaque temporibus voluptate
-                        officia labore, culpa blanditiis velit, doloribus
-                        tenetur totam ducimus autem praesentium vel cupiditate,
-                        repudiandae illum!
-                      </p>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-6">
-                      <p class="card-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Fugiat at deleniti maiores itaque temporibus voluptate
-                        officia labore, culpa blanditiis velit, doloribus
-                        tenetur totam ducimus autem praesentium vel cupiditate,
-                        repudiandae illum!
-                      </p>
-                    </div>
-                    <div class="col-6">
-                      <img src="#" alt="img2" />
-                    </div>
-                  </div>
-                </div>
-              </div>
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.86997082001!2d4.386127015745302!3d50.83357237952993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c4bb7874bf7d%3A0x43b56a3ddcf4a522!2sAvenue%20d&#39;Auderghem%20225%2C%201040%20Etterbeek!5e0!3m2!1sfr!2sbe!4v1568040466604!5m2!1sfr!2sbe"
+              width="100%"
+              height="100%"
+              frameborder="0"
+              style="border:2px solid #fb6632;"
+              allowfullscreen=""
+            ></iframe>
+            <p class="mt-3">Adress: Avenue d'auderghem 225, 1040 Bruxelles</p>
+            <p>Phone Number: 02/xxx.xx.xx</p>
             </div>
           </div>
         </div>
       </div>
+      <div class="row">
+        <div class="col-10 offset-1 mt-3">
+          <div class="card shadow">
+            <div class="card-header text-center">
+              <h4 class="display-5">For Lunch</h4>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-center hoursOpening">Opening Hours</h5>
+              <p class="card-text">
+                <div class="row">
+                  <div class="col text-center">
+                    <p>Sunday</p>
+                  </div>
+                  <div class="col text-center">
+                    <p>10h00-14h00</p>  
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col text-center">
+                    <p>Monday</p>
+                  </div>
+                  <div class="col text-center">
+                    <p>09h00-14h00</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col text-center">
+                    <p>Tuesday</p>
+                  </div>
+                  <div class="col text-center">
+                    <p>09h00-14h00</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col text-center">
+                    <p>Wednesday</p>
+                  </div>
+                  <div class="col text-center">
+                    <p>09h00-14h00</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col text-center">
+                    <p>Thursday</p>
+                  </div>
+                  <div class="col text-center">
+                    <p>09h00-14h00</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col text-center">
+                    <p>Friday</p>
+                  </div>
+                  <div class="col text-center">
+                    <p>09h00-14h00</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col text-center">
+                    <p>Saturday</p>
+                  </div>
+                  <div class="col text-center">
+                    <p>09h00-14h00</p>
+                  </div>
+                </div>
+              </p>
+            </div>
+        </div>
+       </div>
+        </div>
+        <div class="row">
+          <div class="col-10 offset-1 mt-3">
+            <div class="card shadow">
+              <div class="card-header text-center">
+                <h4 class="display-5">For Diner</h4>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center hoursOpening">Opening Hours</h5>
+                <p class="card-text">
+                  <div class="row">
+                    <div class="col text-center">
+                      <p>Sunday</p>
+                    </div>
+                    <div class="col text-center">
+                      <p>18h00-00h00</p>  
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col text-center">
+                      <p>Monday</p>
+                    </div>
+                    <div class="col text-center">
+                      <p>17h00-23h00</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col text-center">
+                      <p>Tuesday</p>
+                    </div>
+                    <div class="col text-center">
+                      <p>17h00-23h00</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col text-center">
+                      <p>Wednesday</p>
+                    </div>
+                    <div class="col text-center">
+                      <p>17h00-23h00</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col text-center">
+                      <p>Thursday</p>
+                    </div>
+                    <div class="col text-center">
+                      <p>17h00-23h00</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col text-center">
+                      <p>Friday</p>
+                    </div>
+                    <div class="col text-center">
+                      <p>17h00-23h00</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col text-center">
+                      <p>Saturday</p>
+                    </div>
+                    <div class="col text-center">
+                      <p>17h00-23h00</p>
+                    </div>
+                  </div>
+                </p>
+              </div>
+          </div>
+         </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-10 offset-1 mt-3">
+              <div class="row">
+                <div class="col-12">
+                  <div class="card shadow">
+                    <div class="card-header text-center">
+                      <h4 class="display-5">
+                        Informations
+                      </h4>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title mb-5">About us</h5>
+                      <div class="row">
+                        <div class="col-12 text-center mb-3">
+                          <img
+                src="assets/img/tapas3.jpg"
+                class="rounded mb-2 img-fluid"
+                alt="Responsive image"
+                style="width:90%"
+
+              />
+              <p class="text-justify">We are a reference in Brussels for those who seek for an Hispanic Atmosphere !
+    
+              A warm atmosphere has been welcoming loyal customers, tourists, groups & lovers for more than ten years.
+              
+              New : You can now sit on our terrace !
+                                    </p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-12 text-center">
+                          <img
+                src="assets/img/tapas2.jpg"
+                class="rounded mb-2 img-fluid "
+                alt="Responsive image"
+                style="width:90%"
+
+              />
+              <p class="text-justify">
+                The ideal restaurant to share Spanish specialties: hot or cold tapas, meat or vegetables, fish or seafood (costillas, chicken wings, albondigas, pulpo, calamares, tortillas, patatas bravas, ...)
+                Looking forward to welcome you !
+              </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+          </div>
+          </div>
+          </div>
     </div>
 
     <!-- jQuery CDN - Slim version (=without AJAX) -->
