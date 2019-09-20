@@ -1,5 +1,5 @@
 body {
-  background-color: #333131 !important;
+  background-color: #333131;
   color: #333131;
   font-family: "Lato", sans-serif;
 }
@@ -20,6 +20,7 @@ body {
 }
 
 .jumbotron {
+  position: relative;
   background-color: #f8eddf !important;
   color: #333131;
   background-image: url(../img/welcome1.jpg);
@@ -29,12 +30,14 @@ body {
   height: 100%;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
-  overflow: hidden;
-  position: relative;
 }
+
+.jumbotron p {
+  color: #f8eddf;
+}
+
 .jumbotron * {
   z-index: 1;
-  position: relative;
 }
 
 .jumbotron::before {
@@ -45,10 +48,6 @@ body {
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.6);
-}
-
-.jumbotron p {
-  color: #f8eddf;
 }
 
 .nav-tabs .nav-item.show .nav-link,
@@ -116,5 +115,16 @@ h6 {
 
 .badge {
   background-color: #fb6632;
+}
+
+.btn-primary {
+  color: #f8eddf;
+  background-color: #fb6632;
+  border-color: #fb6632;
+}
+
+.btn-primary:hover {
+  background-color: #333131;
+  border-color: #f8eddf;
 }
 /*# sourceMappingURL=style.css.map */
